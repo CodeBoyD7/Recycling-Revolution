@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+ <!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">
+    <img src="logo.png" alt="Recycling Revolution Logo" style="height: 50px; margin-right: 10px;">
+    Recycling Revolution
+  </div>
+  <ul class="desktop">
+    <li><a href="#importance">Why Recycle?</a></li>
+    <li><a href="#blog">Survey</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+  <div class="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <ul class="mobile">
+    <li><a href="#importance">Why Recycle?</a></li>
+    <li><a href="#blog">Survey</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</nav>
+
+  <!-- Header with Slideshow -->
+  <header>
+    <div class="slideshow">
+      <img src="images/11_slide.png" alt="Plastic Recycling Image 1">
+      <img src="images/22_slide.png" alt="Plastic Recycling Image 2">
+      <img src="images/33_slide.png" alt="Plastic Recycling Image 3">
+      <img src="images/44_slide.png" alt="Plastic Recycling Image 4">
+      <img src="images/55_slide.png" alt="Plastic Recycling Image 5">
+    </div>
+    <div class="gradient-overlay"></div>
+    <div class="header-content">
+      <h1>Let's Turn Plastic Waste Into New Beginnings!</h1>
+      <p>Join our mission to reduce plastic waste and create a sustainable future for generations to come.</p>
+      <a href="#importance"><button>Learn More</button></a>
+    </div>
+  </header>
+
+  <!-- Content Sections -->
+  <section id="importance" class="recycle-section">
+    <div class="importance-container">
+      <div class="importance-text">
+        <h2>Why Recycle Plastic?</h2>
+        <p>Recycling plastic is essential to combating environmental pollution, conserving natural resources, and reducing landfill waste. By recycling, we can transform discarded materials into valuable resources and help create a sustainable future for generations to come.</p>
+      </div>
+      <div class="importance-image">
+        <img src="images/recycle-process.webp" alt="Benefits of plastic recycling" loading="lazy">
+      </div>
+    </div>
+
+    <div class="recycle-process">
+      <h3>The Process of Recycling Plastic</h3>
+      <div class="process-steps">
+        <div class="step">
+          <img src="images/collection&storing.webp" alt="Step 1: Collection and sorting" loading="lazy">
+          <h4>Step 1: Collection and Sorting</h4>
+          <p>Plastic waste is collected and sorted based on type and quality before being sent for recycling.</p>
+        </div>
+        <div class="step">
+          <img src="images/C&S.webp" alt="Step 2: Cleaning and shredding" loading="lazy">
+          <h4>Step 2: Cleaning and Shredding</h4>
+          <p>The plastic is cleaned to remove contaminants and shredded into small pieces for further processing.</p>
+        </div>
+        <div class="step">
+          <img src="images/Melting&Molding.webp" alt="Step 3: Melting and molding" loading="lazy">
+          <h4>Step 3: Melting and Molding</h4>
+          <p>Shredded plastic is melted and molded into new products, reducing the demand for virgin materials.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chart Section -->
+  <section id="chart">
+    <h2>Plastic Recycling Statistics</h2>
+    <canvas id="recyclingChart" width="400" height="200"></canvas>
+  </section>
+  <!-- Blog Section -->
+  <section id="blog">
+    <main class="container">
+      <div class="section">
+        <img src="images/1.jpg" alt="Plastic Waste in Drainage">
+        <div class="content">
+          <h3>Impact of Plastic Waste in Urban Drainage Systems</h3>
+          <p>Plastic clogging drainage systems leads to blocked water flow, causing frequent urban flooding. Our survey shows 75% of respondents have experienced drainage issues caused by plastic waste in their neighborhoods.</p>
+        </div>
+      </div>
+      
+      <!-- Section 2 -->
+      <div class="section">
+        <img src="images/2.jpg" alt="Plastic in Water Bodies">
+        <div class="content">
+          <h3>The Growing Threat of Plastic Pollution in Water Bodies</h3>
+          <p>Plastic waste has severely polluted lakes and rivers, impacting aquatic life and water quality. 85% of people surveyed agree that improper disposal is the primary cause of plastic entering water bodies.</p>
+        </div>
+      </div>
+      
+      <!-- Section 3 -->
+      <div class="section">
+        <img src="images/3.jpg" alt="Plastic Collection Efforts">
+        <div class="content">
+          <h3>Local Community Efforts to Combat Plastic Waste</h3>
+          <p>Across various regions, communities have been organizing collection drives to recycle plastic waste. Our survey reveals that 68% of participants actively support these efforts by contributing to local recycling initiatives.</p>
+        </div>
+      </div>
+      
+      <!-- Section 4 -->
+      <div class="section">
+        <img src="images/4.jpg" alt="Recycling Facilities">
+        <div class="content">
+          <h3>Awareness of Recycling Facilities in Your Area</h3>
+          <p>Our findings indicate that 54% of respondents are unaware of nearby recycling centers, suggesting a need for increased public education and accessibility to recycling facilities.</p>
+        </div>
+      </div>
+      
+      <!-- Section 5 -->
+      <div class="section">
+        <img src="images/5.jpg" alt="Innovative Recycling Ideas">
+        <div class="content">
+          <h3>Exploring Innovative Ideas for Recycling Plastic</h3>
+          <p>New technologies and creative solutions, such as turning plastic into building materials, are rapidly gaining attention. 71% of our survey participants expressed strong support for implementing such innovative recycling methods.</p>
+        </div>
+      </div>
+      
+      <!-- Section 6 -->
+      <div class="section">
+        <img src="images/6.jpg" alt="Plastic-Free Zones">
+        <div class="content">
+          <h3>Promoting Plastic-Free Zones in Urban Areas</h3>
+          <p>A significant 92% of participants in our survey expressed interest in creating plastic-free zones within their communities to reduce plastic waste and promote sustainability.</p>
+        </div>
+      </div>
+      
+      <!-- Section 7 -->
+      <div class="section">
+        <img src="images/7.jpg" alt="Plastic-Free Zones">
+        <div class="content">
+          <h3>Global Movement Towards Plastic-Free Zones</h3>
+          <p>International efforts are being made to establish plastic-free zones in major cities. Our survey results indicate that 92% of participants are in favor of supporting such initiatives to reduce plastic pollution.</p>
+        </div>
+      </div>
+      
+      <!-- Section 8 -->
+      <div class="section">
+        <img src="images/11.jpg" alt="Plastic-Free Zones">
+        <div class="content">
+          <h3>Encouraging Plastic-Free Zones in Local Communities</h3>
+          <p>Local authorities are increasingly promoting the idea of plastic-free zones in residential areas. 92% of survey participants expressed interest in supporting these community-driven initiatives to tackle plastic waste.</p>
+        </div>
+      </div>
+      
+      <!-- Section 9 -->
+      <div class="section">
+        <img src="images/10.jpg" alt="Plastic-Free Zones">
+        <div class="content">
+          <h3>How Plastic-Free Zones Can Help the Environment</h3>
+          <p>Establishing plastic-free zones not only reduces plastic waste but also encourages sustainable living practices. 92% of survey respondents are eager to support such zones in their neighborhoods to foster a cleaner environment.</p>
+        </div>
+      </div>
+      
+      </div>
+     
+    </main>
+    </section>
+    
+  <!-- Contact Form -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Plastic Recycling Initiative. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Navbar Toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navbar = document.querySelector('.navbar');
+
+    hamburger.addEventListener('click', () => {
+      navbar.classList.toggle('open');
+    });
+
+    // Chart.js Integration
+    const ctx = document.getElementById('recyclingChart').getContext('2d');
+    const recyclingChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Plastic Bottles', 'Bags', 'Wrappers', 'Containers', 'Miscellaneous'],
+        datasets: [{
+          label: 'Recycled Plastic (tons)',
+          data: [200, 150, 100, 75, 50],
+          backgroundColor: [
+            'rgba(82, 20, 123, 0.7)',
+            'rgba(99, 14, 173, 0.7)',
+            'rgba(255, 206, 86, 0.7)',
+            'rgba(75, 192, 192, 0.7)',
+            'rgba(153, 102, 255, 0.7)'
+          ],
+          borderColor: [
+            'rgba(82, 20, 123, 1)',
+            'rgba(99, 14, 173, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(75, 192, 192, 1)',
+            'rgba(153, 102, 255, 1)'
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'top'
+          },
+          tooltip: {
+            enabled: true
+          }
+        }
+      }
+    });
+
+    // Form Submission
+    document.getElementById('contact-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Thank you for contacting us!');
+    });
+  </script>
+</body>
+</html>
